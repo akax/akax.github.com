@@ -3,4 +3,15 @@ layout: page
 title: Hello World!
 ---
 {% include JB/setup %}
-akax
+
+
+بلوگ خاتىرىسى :
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date: "%Y-%m-%d :يوللانغان ۋاقىت" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+
+
