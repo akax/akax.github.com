@@ -16,7 +16,25 @@
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
   
-    <script src="{{ ASSET_PATH }}/js/bedit.js"></script>
+    <script src="http://www.google.com/jsapi?key=ABQIAAAA1XbMiDxx_BTCY2_FkPh06RRaGTYH6UMl8mADNa0YKuWNNa8VNxQEerTAUcfkyrr6OwBovxn7TDAH5Q"></script>
+    <script type="text/javascript">
+        var kbd;
+        google.load("elements", "1", { packages: "keyboard" });
+    </script>
+    <script type="text/javascript">
+        function inputmethod(cbox) {
+        var state = cbox.checked;
+        if (state==true)
+        {
+            if(kbd ==null)
+                kbd = new google.elements.keyboard.Keyboard([google.elements.keyboard.LayoutCode.UIGHUR],['id_comment']);
+             else
+                 kbd.setVisible(true);
+    }
+    else 
+        kbd.setVisible(false);
+    }
+    </script>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
