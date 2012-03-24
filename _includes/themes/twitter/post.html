@@ -13,7 +13,7 @@
       {% else %}
         <li class="prev disabled"><a>&larr; ئالدىنقىسى</a></li>
       {% endif %}
-        <li><a href="{{ BASE_PATH }}{{ archive_path }}">ئارخىىپلار</a></li>
+        <li><a href="/archive.html">ئارخىىپلار</a></li>
       {% if page.next %}
         <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">كىيىنكىسى &rarr;</a></li>
       {% else %}
@@ -22,7 +22,7 @@
       </ul>
     </div>
     <hr>
-    {% include JB/comments %}
+    {% include JB/comments-providers/uycomment %}
   </div>
   
   <div class="span4">
