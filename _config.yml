@@ -66,6 +66,7 @@ JB :
   #
   comments : 
     provider : uycomment
+    uycomment : 
     disqus :
       short_name : jekyllbootstrap
     livefyre :
