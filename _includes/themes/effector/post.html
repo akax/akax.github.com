@@ -1,9 +1,7 @@
 <div class="wrapper">
 <article>
-<h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a> <small class="pull-left">{{ page.date | date:"%b %d, %Y" }}</small></h1>
-<div class="span11">
+<h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a> <small class="pull-right">{{ page.date | date:"%b %d, %Y" }}</small></h1>
 {{ content }}
-</div>
 </article>
 <div>
 {% for tag in page.tags %}
@@ -23,11 +21,13 @@
     {% endif %}   
 </ul>
 <hr>
-<div class="kyb"><input onclick="javascript:inputmethod(this)" id="cboxuy" type="checkbox"><span>ئۇيغۇرچە ئىنكاس</span></div>
-<script>
-var idcomments_acct = '35d36b42203de0564635f2f41037b7f0';
-var idcomments_post_id;
-var idcomments_post_url;
+<div id="disqus_thread"></div>
+</div>
+<script type="text/javascript">
+    var disqus_shortname = '{{site.disqusShortname}}';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
 </script>
-<span id="IDCommentsPostTitle" style="display:none"></span>
-<script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
