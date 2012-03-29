@@ -1,3 +1,4 @@
+@font-face{font-family:UKIJ Tuz Tom;font-style:normal;font-weight:normal;src:url(http://akax.webege.com/w/UKIJTuT.eot);src : local( 'UKIJ TUZ TOM' ), url(http://akax.webege.com/w/UKIJTuT.ttf) format( "TrueType" );}
 html, body {
     background-color: #E6EBEA;
 }
@@ -6,6 +7,10 @@ footer, header, nav {
 }
 footer {
     margin-top: -40px;
+    text-align: center;
+}
+.nav {
+     direction: rtl;
 }
 .nav>a {
      margin:  0px 20px 0px 0px;
@@ -41,7 +46,7 @@ img {
 
 body {
     margin: 0;
-    font-family: 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 30px;
     color: #555;
@@ -69,7 +74,7 @@ p a {
 }
 p {
     margin: 0 0 14px;
-    font-family: 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 30px;
     color: #555;
@@ -89,9 +94,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #555;
     margin: 0;
     text-rendering: optimizelegibility;
+    direction: rtl;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-    font-weight: normal;
+    -weight: normal;
     color: #CED1D1;
 }
 h1 {
@@ -233,6 +239,7 @@ cite {
 code, pre {
     font-family: Monaco, Menlo, "Courier New", monospace;
     font-size: 12px;
+    direction: ltr;
 }
 code {
     padding: 3px 4px;
@@ -375,7 +382,7 @@ text-shadow: 0 1px 0 #fff;
     font-weight: bold;
     color:  #333;
 }
-.wrapper  {
+.pper  {
     background-color:  #fff;
     margin:  10px 0px 50px 0px;
     padding:  10px 20px;
@@ -420,4 +427,9 @@ text-shadow: 0 1px 0 #fff;
 }
 .span11   { 
     width:640px;
+    direction: rtl;
+}
+.kyb   { 
+    direction: rtl;
+    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System;
 }
