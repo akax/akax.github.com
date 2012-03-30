@@ -52,12 +52,12 @@
 $(function(){
   $(document).keydown(function(e) {
     var url = false;
-        if (e.which == 74 || e.which == 74) {  // Left arrow key code
+        if (e.which == 74 ) {  // Left arrow key code
             {% if page.previous %}
         url = '{{page.previous.url}}';
         {% endif %}
         }
-        else if (e.which == 75 || e.which == 75) {  // Right arrow key code
+        else if (e.which == 75 ) {  // Right arrow key code
             {% if page.next %}
         url = '{{page.next.url}}';
         {% endif %}
