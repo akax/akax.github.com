@@ -4,7 +4,6 @@ category : lessons
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
-<!-- more start -->
 
 This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
@@ -61,8 +60,7 @@ Therefore if you like to keep things simple and you prefer the command-line over
 - Ability to host your blog on a static web-server.
 - Ability to host freely on GitHub Pages.
 - No database required.
-<!-- more end -->
-
+<!--more-->
 # How Jekyll Works
 
 The following is a complete but concise outline of exactly how Jekyll works.
