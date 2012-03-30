@@ -436,3 +436,6 @@ text-shadow: 0 1px 0 #fff;
     direction: rtl;
     font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System;
 }
+.alert {
+    direction: rtl;
+}
