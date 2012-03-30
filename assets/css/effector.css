@@ -7,6 +7,7 @@ footer, header, nav {
 }
 footer {
     margin-top: -40px;
+    text-align: center;
 }
 .nav {
      direction: rtl;
@@ -77,6 +78,7 @@ p {
     font-size: 15px;
     line-height: 30px;
     color: #555;
+    direction: rtl;
 }
 p small {
     font-size: 13px;
@@ -156,10 +158,12 @@ ol {
 }
 li {
     line-height: 30px;
+    direction: rtl;
 }
 ul.unstyled {
     margin-left: 0;
     list-style: none;
+    direction: rtl;
 }
 dl {
     margin-bottom: 30px;
@@ -405,7 +409,7 @@ text-shadow: 0 1px 0 #fff;
 }
 .postsList li span{
     color: #bbb;
-  float: right;
+  float: left;
   font-size: 14px;
 }
 
