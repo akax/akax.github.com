@@ -36,7 +36,6 @@
 <a href="/archive/">ئارخىپلار</a>
 <a href="/pages/">بەتلەر</a>
 </div>
-<hr>
 <div class="tagline"><small>{{ tagline }}</small></div>
 <hr>
 {{ content }}
@@ -52,12 +51,12 @@
 $(function(){
   $(document).keydown(function(e) {
     var url = false;
-        if (e.which == 74 ) {  // Left arrow key code
+        if (e.which == 37 ) {  // Left arrow key code
             {% if page.previous %}
         url = '{{page.previous.url}}';
         {% endif %}
         }
-        else if (e.which == 75 ) {  // Right arrow key code
+        else if (e.which == 39 ) {  // Right arrow key code
             {% if page.next %}
         url = '{{page.next.url}}';
         {% endif %}
