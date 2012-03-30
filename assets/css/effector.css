@@ -382,8 +382,10 @@ text-shadow: 0 1px 0 #fff;
 }
 .sitename {
     font-size: 40px;
+    font-family:  'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif,UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System;
     font-weight: bold;
     color:  #333;
+    text-align: center;
 }
 .wrapper  {
     background-color:  #fff;
