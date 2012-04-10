@@ -10,7 +10,20 @@ group: navigation
 <div class="wrapper">
 <h2>بارلىق بەتلەر</h2>
 <ul>
-{% assign pages_list = site.pages %}
-{% include JB/pages_list %}
+{% if site.JB.pages_list.provider == "custom" %}
+  {% include custom/pages_list %}
+{% else %}
+  {% for node in pages_list %}
+    {% if group == null or group == node.group %}
+    	{% if page.url == node.url %}
+    	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+    	{% else %}
+    	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+    	{% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% assign pages_list = nil %}
+{% assign group = nil %}
 </ul>
 </div>
