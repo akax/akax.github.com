@@ -434,8 +434,26 @@ text-shadow: 0 1px 0 #fff;
 }
 .kyb   { 
     direction: rtl;
-    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System;
+    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, Helvetica, sans-serif !important;
 }
 .alert {
     direction: rtl;
+}
+/*google keyboard*/
+/*google keyboard ni ogga tagxax*/
+#kbd.outerbox {
+    position: fixed;
+    margin-left: 0px ;
+    visibility: visible;
+    right: 0px;
+    bottom: 0px;
+}
+/*uyghurche digan hatni normallaxturux*/
+#kbd_t abbr {
+    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, Helvetica, sans-serif !important;
+}
+/*konupka tahta ustidiki hatni normallaxturux*/
+input.goog-button.goog-button-fixed {
+    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, Helvetica, sans-serif !important;
+    font-variant: small-caps;
 }
