@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="author" content="{{ site.author }}"/>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/assets/css/effector.css">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/atom.xml" />
+  <script src="http://www.google.com/jsapi?key=ABQIAAAA1XbMiDxx_BTCY2_FkPh06RRaGTYH6UMl8mADNa0YKuWNNa8VNxQEerTAUcfkyrr6OwBovxn7TDAH5Q"></script>
+    <script type="text/javascript">
+        var kbd;
+        google.load("elements", "1", { packages: "keyboard" });
+    </script>
+    <script type="text/javascript">
+        function inputmethod(cbox) {
+        var state = cbox.checked;
+        if (state==true)
+        {
+            if(kbd ==null)
+                kbd = new google.elements.keyboard.Keyboard([google.elements.keyboard.LayoutCode.UIGHUR],['IDCommentNewThreadText','txtNameNewThread','txtNameReply','txtComment','gsc-i-id1']);
+             else
+                 kbd.setVisible(true);
+    }
+    else 
+        kbd.setVisible(false);
+    }
+    </script>
+</head>
+<body onload="prettyPrint()">
+
+  <div class="container">
+      <h1 class="sitename">Akax`s Blog</h1>
+      <div class="nav">
+<a href="/">باش بەت</a>
+<a href="/archive/">ئارخىپلار</a>
+<a href="/pages/">بەتلەر</a>
+</div>
+<div class="tagline"><small>{{ tagline }}</small></div>
+{{ content }}
+<footer>
+  <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> and <a href="http://pages.github.com/">GitHub</a> | <span class="label label-success">{{site.time | date:"%Y-%m-%d %H:%M:%S"}}</span></small></p>
+  <!-- inspired by http://effectortheme.tumblr.com/ -->
+</footer>
+</div>
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/google-code-prettify/prettify.js"></script>
+{% if page.url != "/" %}
+<script>
+$(function(){
+  $(document).keydown(function(e) {
+    var url = false;
+        if (e.which == 37 ) {  // Left arrow key code
+            {% if page.previous %}
+        url = '{{page.previous.url}}';
+        {% endif %}
+        }
+        else if (e.which == 39 ) {  // Right arrow key code
+            {% if page.next %}
+        url = '{{page.next.url}}';
+        {% endif %}
+        }
+        if (url) {
+            window.location = url;
+        }
+  });
+})
+</script>
+{% endif %}
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30405946-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

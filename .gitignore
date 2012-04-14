@@ -1,0 +1,10 @@
+_site/*
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+googlee2961336753dc730.html
