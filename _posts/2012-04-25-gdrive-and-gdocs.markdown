@@ -36,5 +36,5 @@ Greasemonkey كېڭەيتمىسىنى قاچىلىغاندىن كىيىن ئىش
 ### Opera       
 js ھۆججىتىنى چۈشۈرۈۋالغاندىن كىيىن تور كۆرگۈچ ئىچىدىن بۇ js ھۆججىتىنىڭ ئورنىنى كۆرسىتىپ بەرسەك بۇلىدۇ.
 Operf نى ئىشلىتىدىغانلار ئازمىكىن دەيمەن،شۇڭا شۇڭا سۆرەتلىك تەڭشەش ئۇسۇلىنىلا يوللاي؛      
-[كۆرۈش ئادرىسىنى](http://p.you.video.sina.com.cn/swf/quotePlayer20120331_V4_4_41_35.swf?autoPlay=0&actlogActive=1&as=1&vid=51257076&uid=1247726980&tokenURL=http%3A%2F%2Fyou.video.sina.com.cn%3A8080%2Fapi%2FsinawebApi%2Foutplayrefer.php%2Fvid%3D51257076_1247726980_bE6zHSo5DW%2FK%2Bl1lHz2stqkP7KQNt6nki26zvFCiLAZZQ0%2FXM5GcY98C5ynRBtkEqDhAQZk9cPkm0Bs%2Fs.swf&tHostName=)      
+[كۆرۈش ئادرىسى](http://p.you.video.sina.com.cn/swf/quotePlayer20120331_V4_4_41_35.swf?autoPlay=0&actlogActive=1&as=1&vid=51257076&uid=1247726980&tokenURL=http%3A%2F%2Fyou.video.sina.com.cn%3A8080%2Fapi%2FsinawebApi%2Foutplayrefer.php%2Fvid%3D51257076_1247726980_bE6zHSo5DW%2FK%2Bl1lHz2stqkP7KQNt6nki26zvFCiLAZZQ0%2FXM5GcY98C5ynRBtkEqDhAQZk9cPkm0Bs%2Fs.swf&tHostName=)      
 *بۇ سۆرەتتىكىسى Google Reader نى تەڭشەش ئۇسۇلى*
