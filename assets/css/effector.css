@@ -12,12 +12,13 @@ footer {
 }
 .nav {
      direction: rtl;
+     font-size: 24px;
 }
 .nav>a {
      margin:  0px 20px 0px 0px;
 }
 html {
-    font-size: 100%;
+    font-size: 120%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
