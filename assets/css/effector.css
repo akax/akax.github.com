@@ -12,7 +12,7 @@ footer {
 }
 .nav {
      direction: rtl;
-     font-size: 24px;
+     font-size: 26px;
 }
 .nav>a {
      margin:  0px 20px 0px 0px;
@@ -77,13 +77,13 @@ p a {
 p {
     margin: 0 0 14px;
     font-family: 'Amiri', serif, UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 22px;
     line-height: 30px;
     color: #555;
     direction: rtl;
 }
 p small {
-    font-size: 13px;
+    font-size: 20px;
     color: #999;
 }
 .lead {
@@ -115,19 +115,19 @@ h2 {
     color:  #777;
     background-color: #F2F8F7;
     margin:  20px -20px;
-    font-size:  20px;
+    font-size:  22px;
     padding:  0px 20px;
     line-height:  35px;
 }
 h2 small {
-    font-size: 18px;
+    font-size: 20px;
 }
 h3 {
     line-height: 18px;
     font-size: 18px;
 }
 h3 small {
-    font-size: 14px;
+    font-size: 16px;
 }
 h4, h5, h6 {
     line-height: 15px;
