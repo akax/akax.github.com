@@ -1,4 +1,5 @@
-@font-face{font-family:UKIJ Tuz Tom;font-style:normal;font-weight:normal;src:url(http://akax.webege.com/w/UKIJTuT.eot);src : local( 'UKIJ TUZ TOM' ), url(http://akax.webege.com/w/UKIJTuT.ttf) format( "TrueType" );}
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+
 html, body {
     background-color: #E6EBEA;
 }
@@ -46,7 +47,7 @@ img {
 
 body {
     margin: 0;
-    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Amiri', serif, UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 30px;
     color: #555;
@@ -74,7 +75,7 @@ p a {
 }
 p {
     margin: 0 0 14px;
-    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Amiri', serif, UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 30px;
     color: #555;
@@ -382,7 +383,7 @@ text-shadow: 0 1px 0 #fff;
 }
 .sitename {
     font-size: 40px;
-    font-family:  'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif,UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System;
+    font-family:  'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Amiri', serif, UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System;
     font-weight: bold;
     color:  #333;
     text-align: center;
@@ -421,7 +422,7 @@ text-shadow: 0 1px 0 #fff;
     padding: 20px;
 }
 .sitename {
-    font-family:  'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif,UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System;
+    font-family:  'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Amiri', serif, UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -434,7 +435,7 @@ text-shadow: 0 1px 0 #fff;
 }
 .kyb   { 
     direction: rtl;
-    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, Helvetica, sans-serif !important;
+    font-family: 'Amiri', serif, UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, Helvetica, sans-serif !important;
 }
 .alert {
     direction: rtl;
@@ -450,10 +451,10 @@ text-shadow: 0 1px 0 #fff;
 }
 /*uyghurche digan hatni normallaxturux*/
 #kbd_t abbr {
-    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, Helvetica, sans-serif !important;
+    font-family: 'Amiri', serif, UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, Helvetica, sans-serif !important;
 }
 /*konupka tahta ustidiki hatni normallaxturux*/
 input.goog-button.goog-button-fixed {
-    font-family: UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, Helvetica, sans-serif !important;
+    font-family: 'Amiri', serif, UKIJ Tuz Tom, ALKATIP Tor Tom, Alpida Unicode System, Helvetica, sans-serif !important;
     font-variant: small-caps;
 }
